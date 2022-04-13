@@ -51,7 +51,7 @@ deleteQuote(isDeleted: any,index: number){
 }
 upvoteFunc(index:string | number){
     var up=this.quotes[index].upvote+1;
-    this.quotes[<any>index].upvote=up;
+    this.quotes[index].upvote=up;
     
 }
 

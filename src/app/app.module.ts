@@ -9,7 +9,7 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { DatePassedPipe } from './date-passed.pipe';
-import { DatePassedDirective } from './date-passed.directive';
+import { DatePassedDirective } from './highlight.directive';
 
 
 @NgModule({

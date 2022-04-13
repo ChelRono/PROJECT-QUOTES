@@ -9,6 +9,7 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { DatePassedPipe } from './date-passed.pipe';
+import { DatePassedDirective } from './date-passed.directive';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { DatePassedPipe } from './date-passed.pipe';
     QuoteFormComponent,
     QuoteComponent,
     QuoteDetailsComponent,
-    DatePassedPipe
+    DatePassedPipe,
+    DatePassedDirective
   ],
   imports: [
     BrowserModule,

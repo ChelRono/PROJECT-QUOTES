@@ -1,0 +1,42 @@
+.card-title{
+    cursor: pointer;
+}
+
+.card-title:hover{
+    color: blanchedalmond; 
+    text-decoration-line: underline ;
+    
+}
+
+.card{
+    background-color: rgba(25, 41, 47,0.67);
+    color: blanchedalmond;
+    border:1px  chartreuse;
+    border-style: groove;
+margin-top: 4%;
+}
+
+.quotes{
+  
+    
+    color: blanchedalmond;
+    display: inline-flexbox;
+    width: 69%;
+}
+
+/* .container{
+    width: 30%;
+    float: left;
+  margin-top: 20% auto;
+} */
+
+.popularQuote{
+    margin-top: 10%;
+    
+}
+.card-deck{
+
+    column-count: 3;
+    /* margin: 20% auto; */
+    margin-top: 2%;
+}
